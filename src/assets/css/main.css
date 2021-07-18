@@ -1,0 +1,106 @@
+h1{
+	color: var(--bs-teal);
+}
+
+body {
+	background-color: var(--bs-light);
+}
+
+.content {
+	min-height: 70vh;
+}
+
+input{
+  border-radius: 0;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="search"]:focus,
+input[type="email"]:focus, input[type="url"]:focus, input[type="date"]:focus, textarea:focus {
+  border-color: var(--bs-teal);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+}
+
+input.invalid{
+  border-color: #dc3545;
+  padding-right: calc(1.5em + .75rem);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right calc(.375em + .1875rem) center;
+  background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+}
+
+span.err-msg{
+    width: 100%;
+    margin-top: .25rem;
+    font-size: .875em;
+    color: #dc3545;
+}
+
+.form-control{ border-radius: 0;}
+
+.btn-teal{
+	color: #fff;
+	background-color: var(--bs-teal);
+	border-color: var(--bs-green);
+	border-radius: 0;
+}
+
+.btn-teal:hover{
+  color: #fff;
+	background-color: var(--bs-green);
+	border-color: var(--bs-teal);
+}
+
+.btn-purple{
+	color: #fff;
+	background-color: var(--bs-purple);
+	border-color: var(--bs-indigo);
+	border-radius: 0;
+}
+
+.dropdown-menu{
+	border-radius:0;
+}
+
+.dropdown-item.active,
+.dropdown-item:focus,
+.dropdown-item:hover{
+    background-color: var(--bs-teal);
+    color: #fff;
+}
+
+.form-bg{
+	background-color: #9eb3cb;
+}
+
+.footer-title{
+	color: var(--bs-teal);
+}
+
+.footer-bg{
+	background-color: #35495e;
+}
+
+.page-link:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+  border-radius: 0;
+}
+
+.page-item.active .page-link {
+  background-color: var(--bs-teal);
+  border-color: var(--bs-green);
+}
+
+.page-link {
+  color: var(--bs-teal);
+}
+
+.page-link:hover {
+  color: var(--bs-green);
+}

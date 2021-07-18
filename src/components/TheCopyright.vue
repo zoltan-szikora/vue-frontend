@@ -1,0 +1,15 @@
+<template>
+  <div class="bg-dark text-center p-2 fixed-bottom">
+    <p class="text-muted m-0">Copyright &copy; 2021. Author: Zoltán Szikora</p>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'TheCopyright'
+}
+</script>
+
+<style>
+
+</style>
